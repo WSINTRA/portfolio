@@ -26,7 +26,6 @@ const handleDiscover = discover => {
   });
 };
 const handleEngineer = engineer => {
-  console.log(engineer)
   setDisplay({
     ...display,
     engineer

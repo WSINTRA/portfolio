@@ -16,16 +16,27 @@ const sketch = (p) => {
   var positionY = [];
   var velocityX = [];
   var velocityY = [];
-
+  var fillr=64, fillg=255, fillb=255, filla=192;
   p.setup = function () {
     p.createCanvas(vw, vh - 300, p.WEBGL);
     p.noStroke();
-    p.fill(64, 255, 255, 192);
   };
 
   p.draw = function () {
     p.background(32);
-
+    if(fillr >255){
+      fillr = p.random(255);
+    }
+    if(fillg > 255){
+      fillg =p.random(255);
+    }
+    if(fillb > 255){
+      fillb=p.random(255);
+    }
+    if(filla >255){
+      filla = 40;
+    }
+    p.fill(fillr, fillg, fillb, filla);
     for (var particleA = 0; particleA < mass.length; particleA++) {
       var accelerationX = 0;
       var accelerationY = 0;
@@ -60,7 +71,10 @@ const sketch = (p) => {
       );
     
     }
-   
+   fillr++;
+   fillg++;
+   fillb++;
+   filla++;
   };
   function addNewParticle() {
     mass.push(p.random(0.003, 0.03));
@@ -115,6 +129,42 @@ export default function Artist() {
             href="https://willsimpson85.wixsite.com/musicsavestheworld/"
           >
             <i className="icofont-3x icofont-disc"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/willthesimpson/"
+          >
+            <i className="icofont-3x icofont-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://twitter.com/will_thesimpson"
+          >
+            <i className="icofont-3x icofont-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://steemit.com/@thesimpson"
+          >
+            <i className="icofont-3x icofont-tiger-face"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.facebook.com/vvill.simpson"
+          >
+            <i className="icofont-3x icofont-skull-face"></i>
           </a>
         </li>
       </ul>
