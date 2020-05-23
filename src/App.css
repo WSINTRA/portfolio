@@ -1,5 +1,5 @@
 html{
-  padding: 50;
+  padding-left: 50;
 }
 
 body {
@@ -7,7 +7,7 @@ body {
   background-color: #EBEBEB;
   background-repeat: repeat;
   font-family: 'Roboto Mono', monospace;
-  margin: .5rem;
+  margin-left: .5rem;
   }
   ul{
     display: "block";
@@ -37,6 +37,9 @@ p{
 a{
   text-decoration: none;
 }
+.name{
+  background-image: linear-gradient(to right,#EBEBEB, #5f3d5fc4);
+}
 .contact-box {
   background-color: #EBEBEB;
   font-size: 1rem;
@@ -52,7 +55,7 @@ a{
     -webkit-background-clip: text;
     color: transparent; }
   .contact-box:hover {
-    transform: translateY(-0.2rem) scale(1.01); }
+    transform: translateY(-0.1rem) scale(0.91); }
 
 
     .heading-tertiary {

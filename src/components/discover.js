@@ -3,7 +3,7 @@ import React from "react";
 export default function () {
   return (
     <div className="w3-display-container:hover">
-      <div className="w3-animate-left">
+      <div className="w3-animate-bottom">
         <h2>My Story</h2>
         <p className="monospace">
           It has been a long and exciting journey, I left school thinking I knew 
