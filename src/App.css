@@ -38,7 +38,18 @@ a{
   text-decoration: none;
 }
 .name{
-  background-image: linear-gradient(to right,#EBEBEB, #5f3d5fc4);
+  background-image: linear-gradient(to right,#EBEBEB,rgb(255, 255, 255), #607d8b);
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to right, 
+      #607d8b, 
+      rgba(255, 255, 255, 255)
+    )1 ;
+  border-top:0;
+border-left:0;
+border-right:0;
 }
 .contact-box {
   background-color: #EBEBEB;
@@ -51,7 +62,7 @@ a{
   .contact-box__icon {
     font-size: 3rem;
     display: inline-block;
-    background-image: linear-gradient(to right, rgb(117, 112, 112), #1d1b1d);
+    background-image: linear-gradient(to right, rgb(117, 112, 112), #607d8b);
     -webkit-background-clip: text;
     color: transparent; }
   .contact-box:hover {
