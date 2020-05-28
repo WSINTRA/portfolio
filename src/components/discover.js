@@ -10,7 +10,7 @@ export default function () {
           what the world was and my place in it.<br/><br/> In my youth I was a nerdy
           teenager spending late nights on<a style={{ cursor: "pointer", textDecoration: "underline"}} target="_blank" rel="noopener noreferrer" href="https://www.hack3r.com/ClassicMoments"> IRC </a>
          hanging out with hackers and
-          learning the lingo and the history. <br/>Whilst tudying C/C++, with a home
+          learning the lingo and the history. <br/>Whilst studying C/C++, with a home
           learning course. <br/><br/>I applied for an apprenticeship and joined BT in 2004 I felt very fortunate to be
           in such a great program. <br/>Eventually transitioning from
           telecommunications engineering to youth work and education. <br/>A musician
