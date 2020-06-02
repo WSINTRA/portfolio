@@ -36,7 +36,10 @@ const handleEngineer = engineer => {
       <div className="name w3-container w3-text-dark-grey">
         
         <h1>William Robert Simpson</h1>
-        <div onClick={()=>handleEngineer(!display.engineer)}style={{ cursor: "pointer" }}> <p>Software Engineer | Musician-Artist   <i className="icofont-2x icofont-hand-drag1"></i></p></div>
+        <div onClick={()=>handleEngineer(!display.engineer)}style={{ cursor: "pointer" }}>
+          <p> {display.engineer ? <><span style={{textDecoration: 'underline'}}>Software Engineer</span> | <span>Musician-Artist</span> </>
+          : <><span>Software Engineer</span> | <span style={{textDecoration: 'underline'}}>Musician-Artist</span> </>}
+             <i className="icofont-2x icofont-hand-drag1"></i></p></div>
       </div>
    {display.engineer ? 
    <div>
