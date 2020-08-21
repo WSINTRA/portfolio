@@ -18,7 +18,7 @@ const sketch = (p) => {
   var velocityY = [];
   var fillr=64, fillg=255, fillb=255, filla=192;
   p.setup = function () {
-    p.createCanvas(vw, vh - 300, p.WEBGL);
+    p.createCanvas(vw -100, vh - 300, p.WEBGL);
     p.noStroke();
   };
 
@@ -131,7 +131,7 @@ export default function Artist() {
             <i className="icofont-3x icofont-disc"></i>
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -166,7 +166,7 @@ export default function Artist() {
           >
             <i className="icofont-3x icofont-skull-face"></i>
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

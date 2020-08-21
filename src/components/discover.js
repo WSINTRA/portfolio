@@ -32,8 +32,10 @@ export default function () {
           in processing! <br/><br/>Passions aside, professionally I am still learning in
           my work environment and finding ways I can bring my many experiences
           to the projects I am engaged in. Some of the newer technologies I am
-          getting to grips with include GraphQL, Prisma, React Native and Apollo. <br/>Check out my github for the code.<br/>
-          <i className="icofont-3x icofont-brand-linux"></i>
+          getting to grips with include GraphQL, Prisma, React Native and Apollo. <br/>Check out my github for the code.<br/><br/>
+          <br/>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/WSINTRA/">
+          <i className="icofont-3x icofont-brand-linux"></i></a>
         </p>
       </div>
     </div>
