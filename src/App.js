@@ -18,7 +18,7 @@ function App() {
           Life is a long and exciting journey, We leave school/education hoping to meet the 
           the world and find a place in it.<br/><br/> In my youth I was a nerdy
           teenager spending late nights on<a style={{ cursor: "pointer", textDecoration: "underline"}} target="_blank" rel="noopener noreferrer" href="https://www.hack3r.com/ClassicMoments"> IRC </a>
-         hanging out with hackers and
+         hanging out with like minded technical tinkerers and
           learning the lingo and the history of phreaking and hobbyist computers. <br/>Whilst studying C/C++, on a home
           learning course. <br/><br/>I applied for an apprenticeship and joined BT (British Telecommunications) as an Advanced Network Engineering apprentice in 2004.
            I felt very fortunate to be
@@ -27,7 +27,7 @@ function App() {
           with a love for the community. 
           <i className="icofont-nerd-smile"></i>
           <br/><br/>Taking on new qualifications and
-          shifting my focus. <br/>I jumped the Atlantic ocean and landed in New York City! <br/>
+          shifting my focus. <br/>I jumped the Atlantic ocean and landed in New York City. <br/>
           Here I reconnected with my nerdy teenage self and became interested in the world of code
           and software development. <br/><br/>A lot of self study and some community
           volunteering kept me busy before beginning the in-campus
