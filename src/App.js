@@ -13,7 +13,7 @@ function App() {
     <div >
      
        <div >
-        <div className="header-with-pic"><h2>My Story</h2><ReactLogo /></div>
+        <div className="header-with-pic"><h2>Will Simpson - Professional Software Engineer & Creative Artist</h2><ReactLogo /></div>
         <p className="monospace">
           Life is a long and exciting journey, We leave school/education hoping to meet the 
           the world and find a place in it.<br/><br/> In my youth I was a nerdy
@@ -24,49 +24,56 @@ function App() {
            I felt very fortunate to be
           in such a great program. <br/>Eventually transitioning from
           telecommunications engineering to youth work and education. <br/>A musician
-          with a love for the community. 
+          with a love for the community. <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=tdypEb6D1vE&list=PLJqqlHbgjmByeY1vowjwcqFQTw_ORH40I">Check out a playlist of the work I have been involved in </a>
           <i className="icofont-nerd-smile"></i>
           <br/><br/>Taking on new qualifications and
-          shifting my focus. <br/>I jumped the Atlantic ocean and landed in New York City. <br/>
-          Here I reconnected with my nerdy teenage self and became interested in the world of code
+          shifting my focus. <br/>I crossed the Atlantic ocean and landed in New York City. <br/>
+          Here I reconnected with my nerdy teenage self and re-introduced myself into a world of technology
           and software development. <br/><br/>A lot of self study and some community
           volunteering kept me busy before beginning the in-campus
           Full-Stack Engineering bootcamp at the Flatiron School in Brooklyn DUMBO. 
           I love software development, discovering and thinking about how all the
-          complex pieces of the system fit together. <br/><br/>I still keep to my community engagement work
-          in the education sphere and enjoy being part of some really amazing
-          projects in NYC. <br/><br/>With my new
-          found love for Processing and p5js, I am building the bridge between
+          complex pieces of the system fit together. <br/><br/>I still kept to my community engagement work
+          in the education sphere and enjoyed being part of some really amazing
+          projects in NYC & the UK. <br/><br/>In my creative pursuits, building the bridge between
           creative artist and software development with live visual audio
-          performances. Producing music on the fly with visuals created
-          in processing! <br/><br/>Passions aside, professionally I am still learning in
-          my work environment and finding ways I can bring my many experiences
+          performances. Producing original music and mixing with visual media. <br/><br/>Professionally I am always learning and finding ways I can bring my many experiences
           to the projects I am engaged in. Some of the newer technologies I am
-          getting to grips with include GraphQL, Prisma, React Native and Apollo. <br/>Check out my github for the code.<br/><br/>
+          getting to grips with include GoLang, GraphQL, Prisma, React Native and Apollo. <br/>Check out my personal github for any projects I may be working on.<br/><br/>
           <br/>
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/WSINTRA/">
-          <i className="icofont-3x icofont-brand-linux"></i></a>
+          
         </p>
       </div>
-      <div className="w3-third">
+      
+      <div className="w3-quarter">
          <a target="_blank" rel="noopener noreferrer" href="https://github.com/WSINTRA/">
            <div className="contact-box" id="connect">
-             <i className="contact-box__icon icofont-github"></i>
-             <h3 className="heading-tertiary">WSINTRA</h3>
+           <i className="icofont-3x icofont-brand-linux"></i>
+             <h3 className="heading-tertiary">WSINTRA - GitHub</h3>
              <p className="contact-box__text"><i>"what the code looks like"</i></p>
            </div>
          </a>
        </div>
-       <div className="w3-third">
+
+       <div className="w3-quarter">
+         <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UC_5ewFaJi2NtUuPvJa4bLQw">
+           <div className="contact-box" id="connect">
+             <i className="contact-box__icon icofont-youtube"></i>
+             <h3 className="heading-tertiary">Will S - YouTube</h3>
+             <p className="contact-box__text"><i>"Meet my artistic side"</i></p>
+           </div>
+         </a>
+       </div>
+       <div className="w3-quarter">
          <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@will.simpson_">
            <div className="contact-box">
              <i className="contact-box__icon icofont-read-book"></i>
-             <h3 className="heading-tertiary">will.simpson_</h3>
+             <h3 className="heading-tertiary">will.simpson_ - Medium</h3>
              <p className="contact-box__text"><i>"writings and ramblings"</i> </p>
            </div>
          </a>
        </div>
-       <div className="w3-third">
+       <div className="w3-quarter">
          <a
            target="_blank"
            rel="noopener noreferrer"
@@ -75,7 +82,7 @@ function App() {
            <div className="contact-box">
              <i className="contact-box__icon icofont-linkedin"></i>
              <h3 className="heading-tertiary">
-               william-r-simpson
+               william-r-simpson - LinkedIn
              </h3>
              <p className="contact-box__text"><i>"networking and career"</i> </p>
            </div>
