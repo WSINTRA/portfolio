@@ -1,3 +1,2 @@
-WSINTRA www.williamrobertsimpson.com
+www.williamrobertsimpson.com
 
-Homepage
