@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { ReactComponent as ReactLogo } from "./logo.svg";
+import { ReactComponent as HeadShot } from "./logo.svg";
 
 function App() {
   /**
@@ -14,10 +14,9 @@ function App() {
       <div>
         <div className="header-with-pic">
           <h2>
-            Will Simpson - Professional Software Engineer & Creative Media
-            Artist
+            Will Simpson - Professional Software Crafter & Digital Creative
           </h2>
-          <ReactLogo />
+          <HeadShot />
         </div>
         <div className="w3-threequarter">
           <p
@@ -39,13 +38,13 @@ function App() {
             </a>
             hanging out with like minded technical tinkerers and learning the
             lingo and the history of phreaking and hobbyist computers. <br />
-            Whilst studying C/C++, on a home learning course. <br />
+            Whilst studying C/C++, on a home learning course. (2003) <br />
             <br />I applied for an apprenticeship and joined BT (British
-            Telecommunications) as an Advanced Network Engineering apprentice in
-            2004. I felt very fortunate to be in such a great program. <br />
+            Telecommunications) as an Advanced Network Engineering apprentice.
+            I felt very fortunate to be in such a great program. <br />
             Eventually transitioning from telecommunications engineering to
-            youth work and education. <br />A musician with a love for the
-            community.{" "}
+            youth work and education.(2011) <br />A musician with a love for the
+            community. Music Saves the world was founded in 2015.{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -57,17 +56,13 @@ function App() {
             <br />
             <br />
             Taking on new qualifications and shifting my focus. <br />I crossed
-            the Atlantic ocean and landed in New York City. <br />
+            the Atlantic ocean and landed in New York City. This was in 2017. <br />
             Here I reconnected with my nerdy teenage self and re-introduced
             myself into a world of technology and software development. <br />
             <br />A lot of self study and some community volunteering kept me
             busy before beginning the in-campus Full-Stack Engineering bootcamp
-            at the Flatiron School in Brooklyn DUMBO. I love software
-            development, discovering and thinking about how all the complex
-            pieces of the system fit together. <br />
-            <br />I still kept to my community engagement work in the education
-            sphere and enjoyed being part of some really amazing projects in NYC
-            & the UK. <br />
+            at the Flatiron School in Brooklyn DUMBO.
+              <br />
             <br />
             In my creative pursuits, building the bridge between creative artist
             and software development with live visual audio performances.
@@ -75,11 +70,7 @@ function App() {
             <br />
             Professionally I am always learning and finding ways I can bring my
             many experiences to the projects I am engaged in. 
-              Recently I have been tinkering with Solana and
-            Rust, got some ideas I want to test out. <br />
             Check out my personal github for any projects I may be working on.
-            <br />
-            <br />
             <br />
           </p>
         </div>
